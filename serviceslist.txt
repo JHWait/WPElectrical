@@ -1,0 +1,42 @@
+Services Changelist:
+
+Remove Fuseboard - Consumer Unit & Earth
+	: Consumer unit with 30 ma rcd protection - main, gas, water earth bonding.
+	
+(TODO: Add sidebar with images)
+
+DOMESTIC:
+	
+Add Garage alarms
+Audio & Media Installation (Sonos)
+SmartHome Technology (WiFi controlled accessories, LightwaveRF)
+External flood lighting
+LED lighting
+Energy Survey (Save energy / blah)
+Home Security (CCTV, Door entry systems)
+Portable Appliance Testing
+Solar Panel Installation
+
+INDUSTRIAL:
+
+Containment (trunking, tray, metal/plastic)
+3 phase supplies
+Air conditioning systems
+Ventilation
+Electric Motors (installation & servicing)
+Control Panel Manufacture & Maintanence
+Solar Panel Installation
+
+COMMERCIAL:
+
+Portable Appliance Testing
+Air conditioning systems
+Ventilation
+Energy Survey (eco friendly / energy efficient lighting (LED))
+Solar Panel Installation
+Lighting Installation & Design
+
+
+
+
+

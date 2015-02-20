@@ -1,0 +1,24 @@
+body {
+	background-color:	#6699CC;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size: 64pt;
+	padding: 20px;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size: 14pt;
+}
+
+main {
+	display: block;
+	background-color:#000044;
+	height:170px;
+	text-align: center;
+	vertical-align: middle;
+}

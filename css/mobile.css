@@ -1,0 +1,296 @@
+	
+	div#wrapper {
+		width: 100%;
+	}
+	
+	header {
+		min-width: 100%;
+		width: 100%;
+		height: 110px;
+	}
+	
+	div#titleWrap {
+		width: 100% !important;
+		min-width: 100% !important;
+		padding: 0;
+		margin: 0;
+	}
+				
+	#slider {
+        width: 100%;
+		height: 200px;
+		padding: 0;
+		border: none;
+    }
+
+	
+	div#certification {
+		display: none;
+	}
+	
+	main {
+		width: 100%;
+	}
+	
+	div#leftWrap {
+		padding: 0;
+		width: 100%;
+	}
+	
+	div#leftWrap p, h3 {
+		margin: 10px;
+	}
+	
+	div#header-left, div#header-right {
+		width: 100% !important;
+		padding: 0;
+		margin: 0;
+	}
+			
+	div#header-left {
+		height: 70px;
+		text-align: center;
+		display: block;
+	}
+	
+	div#header-right {
+		height: 40px;
+		text-align: center;
+		display: block;
+	}
+	
+	div#header-left h1 {
+		font-size: 26pt;
+		margin-top: 10px;
+	}
+	
+	div#header-left h3 {
+		font-size: 8pt;
+	}
+	
+	div#header-right h2 {
+		font-size: 14pt;
+		margin-top: 8px;
+		margin-bottom:10px;
+		text-align: center;
+		float: none;
+	}
+	
+	div#header-right h4 {
+		display: none;
+	}
+		
+	.flexslider {
+		width: 100%;
+		height: 200px;
+		margin: 0;
+	}
+	
+	.slides, .flex-active-slide {
+		height: 200px;
+	}
+	
+	.flex-active-slide img {
+		height: 200px !important;
+	}
+	
+	#slider img {
+		height: 200px;
+	}
+	
+	#sideWrap {
+		width: 100%;
+		height: 100%;
+		text-align: center;
+	}
+	
+	#gMap {
+		width: 95%;
+		height: 280px;
+	}
+	
+	#topWrap {
+		width: 100%;
+	}
+	
+	footer {
+		width: 100%;
+		min-height: 70px;
+		height: 70px; /* maybe change this to auto for the variable font size thing */
+	}
+		
+	#footerWrap {
+		width: 100%;
+		min-height: 70px;
+		height: 70px;
+	}
+	
+	.footerSection {
+		width: auto !important;
+		min-height: 70px !important;
+		height: 70px !important;
+	}
+	
+	.footerSection:nth-of-type(3) {
+		width: auto !important;
+		float: right;
+		min-height: 70px !important;
+		height: 70px !important;
+		padding-top: 10px;
+	}
+	
+	.footerSection p {
+		font-size: 7pt;
+		width: auto;
+		margin: 0 !important;
+	}
+	
+	.contactMethod {
+		font-size: 12pt;
+	}
+	
+	.nomobile {
+		display:none;
+	}
+	
+	.mobList {
+		height: 32px;
+		width: 32px;
+		float:left;
+		margin-left: 10px;
+		margin-top: 2px;
+	}
+	
+	/* NAV MOBILE */
+	
+	/*Make dropdown links appear inline*/
+	nav ul {
+		position: static;
+		display: none;
+	}
+	
+	/*Create vertical spacing*/
+	nav li {
+		border: 0px;
+		height: 40px;
+		border-bottom: solid 1px #054950 !important;
+	}
+	/*Make all menu links full width*/
+	nav ul li, li a {
+		width: 100%;
+		z-index: 999;
+	}
+	/*Display 'show menu' link*/
+	.show-menu {
+		display:block;
+	}
+	
+	nav li:first-child {
+		width: 100%;
+		border-left: 0px;
+	}
+		
+	nav li a {
+		background-color:#003366;
+		background: -webkit-linear-gradient(top, #003366 0%, #003366 100%); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(top, #003366 0%, #003366 100%); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(top, #003366 0%, #003366 100%); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(top, #003366 0%, #003366 100%); /* Standard syntax */
+	}
+	
+	#mainOtherArticle {
+	width: 100%;
+	padding: 0;
+	}
+	
+	#mainOtherArticle p {
+		padding: 10px;
+	}
+	
+	#thumbWrap {
+	width: 320px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	}
+
+	/* 	Select the 1st and 8th (first of both lines) <a> tag which contains an inner pThumb class for thumbnail image and set it so it does not use the left margin
+		for better central aligning -- this took some time to fix -- remember to watch out for nested stuff in future!! */
+
+	#thumbWrap a:nth-child(1) .pThumb, a:nth-child(4) .pThumb, a:nth-child(7) .pThumb, a:nth-child(10) .pThumb {
+	margin-left:0px;
+	}
+	
+	#thumbWrap a:nth-child(8) .pThumb {
+	margin-left:10px;
+	}
+
+	/* Thanks Page minor CSS */
+
+	.pThumb {
+	width: 80px;
+	height: 80px;
+	margin-left:10px;
+	margin-bottom: 30px;
+	padding: 0;
+	-webkit-box-shadow: 0 8px 18px -4px black;
+	-moz-box-shadow: 0 8px 18px -4px black;
+	box-shadow: 0 8px 18px -4px black;
+	}
+
+	.pThanks {
+	margin: 10px;
+	margin-left:20px;
+	margin-bottom:20px;
+	font-size: 12pt;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	}
+	
+	#mainArticle {
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin-bottom: 10px;
+	}
+	
+	#mainArticle p {
+		padding: 10px;
+	}
+	
+	#mainArticle h4 {
+		margin-top:10px;
+		margin-left: 10px;
+	}
+	
+	.mainJobType, .mainJobType:nth-last-child(2), .mainJobType:nth-last-child(1) {
+		width: 100%;
+	}
+	
+	.vcard {
+		padding: 0px !important;
+		width: auto !important;
+		margin: 10px;
+	}
+	
+	#testimonials {
+		margin: 0 auto;
+		float: none;
+	}
+	
+	.testimonialHolder {
+		width: 90%;
+	}	
+	
+	.serviceWrap h6 {
+		padding-left:10px;
+	}
+	
+	#sideWrap img {
+	width: 300px;
+	height: 300px;
+	}
+	
+
+
